@@ -1,66 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>개발자의 뻘짓</title>
-    <style>
-        @font-face {
-            font-family: 'Gyeonggi_Title_Medium';
-            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff') format('woff');
-            font-weight: 500;
-            font-style: normal;
-        }
-
-        html * {
-            font-family: "Gyeonggi_Title_Medium";
-            color: white;
-        }
-
-        h1 {
-            display: block;
-            width: 100%;
-            height: 6vh;
-            margin: 0 0 0 0;
-            
-            align-content: center;
-            text-align: center;
-            
-            background-color: rgb(70,70,80);
-        }
-
-        ul.TargetTable * {
-            color: white;
-            font-size: x-large;
-            margin-bottom: 10px;
-        }
-
-        #time {
-            color: rgb(200,200,200);
-            font-size: small;
-        }
-
-        .PicGroup {
-            width: 100%;
-
-            display: inline-grid;
-            justify-items: center;
-            align-items: center;
-            column-count: 3;
-            grid-template-columns: repeat(3, auto);
-            column-rule-style: dashed;
-        }
-
-        .PicGroup * {
-            display: block;
-            background-color: white;
-            width: 30vw;
-            height: auto;
-            margin-bottom: 10px;
-            /* display: inline-grid; */
-        }
-    </style>
-    
+  
     <script>
       fetch('https://www.tabthedev.kro.kr/birthday-2025.html')
         .then(response => response.text())
@@ -72,5 +12,4 @@
         })
         .catch(error => console.error('Error fetching page:', error));
     </script>
-  </head>
 </html>
