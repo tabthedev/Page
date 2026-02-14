@@ -32,6 +32,13 @@
          url('https://cdn.jsdelivr.net/gh/fonts-archive/GangwonEduPower/GangwonEduPower.ttf') format('truetype');
 } */
 
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
 :root {
   font-family: 'GMarketSans';
   line-height: 1.5;
