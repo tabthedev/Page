@@ -1,0 +1,95 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  background: rgb(11,11,11);
+  width: 100%-40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+section  {
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-wrap:wrap;
+  place-items:inherit;
+
+  padding: 10px 10px 10px 10px;
+}
+
+@keyframes appear {
+  0% {
+    filter: blur(12px);
+  }
+  100% {
+    filter: blur(0);
+  }
+}
+
+.header h2 {
+  animation-name: appear;
+  animation-duration: 1.5s;
+  animation-direction: ease-out;
+}
+
+.birthdate {
+  font-size: 18px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: blur(12);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+sub, sup {
+  color: rgb(255, 255, 255, .6);
+  display: contents;
+  font-size: 75%;
+  font-weight: 100;
+}
+
+#bdayMessage_Container {
+  width: 260px;
+  height: 330px;
+  background-color: rgb(44, 45, 49);
+  border-radius: 10px;
+  
+  transition: all .3s ease-out;
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+
+  margin: 0 20px 20px 0;
+  padding: 15px 15px 15px 15px;
+}
+
+#bdayMessage_Container:hover {
+  border-color: white;
+  border: 2px;
+
+  margin: 0 20px 50px 0;
+
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, .2);
+}
+
+#bdayMessage_Container * {
+  text-align: left;
+  margin: 0 0 8px 0;
+}

@@ -1,0 +1,20 @@
+{
+"data": [
+    {
+        "name": "HanB",
+        "nameType": "활동명",
+        "description": "'메타인지가확실하구나~ ^_^'\n태희의 자캐를 그려주셨습니다 (고마워!!)",
+        "offsetFromStart": 0,
+        "links": ["https://hanb1.straw.page/"],
+        "files": ["./assets/HanB02.jpg"]
+    },
+    {
+        "name": "Nwb | 김지훈",
+        "nameType": "활동명 | 실명",
+        "description": "듬직이",
+        "offsetFromStart": 6,
+        "links": [],
+        "files": []
+    }
+]
+}
