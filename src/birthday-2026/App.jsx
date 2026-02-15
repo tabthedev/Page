@@ -20,7 +20,6 @@ function FormatHour(hour){
   return prefix+hour+'시'
 }
 
-
 function App() {
   let align
 
