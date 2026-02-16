@@ -8,7 +8,7 @@ header {
 }
 
 section  {
-  width: 100%;
+  width: 95%;
   height: 90%;
 
   display: flex;
@@ -88,4 +88,35 @@ sub, sup {
 #bdayMessage_Container * {
   text-align: left;
   margin: 0 0 8px 0;
+}
+
+#bdayMessage_Description {
+  /* width: 100%-30px;
+  height: 235px;
+  border-radius: 10px; */
+
+  padding: 15px 15px 15px 15px;
+  
+  
+  transition: all .1s ease-out;
+
+  background-color: rgb(11,11,11, .5);
+}
+
+#bdayMessage_Container #bdayMessage_Description {
+  width: 100%-30px;
+  height: 235px;
+  border-radius: 10px;
+}
+
+#bdayMessage_Container:hover #bdayMessage_Description {
+  width: 100%-30px;
+  height: 255px;
+  border-radius: 10px;
+}
+
+#bdayMessage_Description * {
+  font-size: 12px;
+  font-weight: 200;
+  color: rgb(255, 255, 255, .6);
 }

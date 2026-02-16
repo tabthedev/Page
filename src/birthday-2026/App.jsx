@@ -44,11 +44,15 @@ function App() {
     let hour = Math.floor(object.offsetFromStart/60)
     let min = object.offsetFromStart%60
 
+    const descriptions = object.description.map((v)=>{
+      return <p id="bdayMessage_descriptionText">{v}</p>
+    })
+
     return <acticle id='bdayMessage_Container'>
       <p id="bdayMessage_Sender">이름 : {object.name} <sup>({object.nameType})</sup></p>
       <p id="bdayMessage_TimeSent">시각 : {FormatHour(hour)} {min}분</p>
       <article id="bdayMessage_Description">
-
+        {descriptions}
       </article>
     </acticle>
   }
