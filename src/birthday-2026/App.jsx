@@ -47,14 +47,28 @@ function App() {
     const descriptions = object.description.map((v)=>{
       return <p id="bdayMessage_descriptionText">{v}</p>
     })
+    
+    const links = object.links.map((v)=>{
+      return <a href={v.href} target='_blank' id="bdayMessage_Link">{v.name}</a>
+    })
 
-    return <acticle id='bdayMessage_Container'>
+    // const attachments = object.files.map((path)=>{
+    //   return <img src={require(path)} alt="" />
+    // })
+
+    return <article id='bdayMessage_Container' onClick=''>
       <p id="bdayMessage_Sender">이름 : {object.name} <sup>({object.nameType})</sup></p>
       <p id="bdayMessage_TimeSent">시각 : {FormatHour(hour)} {min}분</p>
       <article id="bdayMessage_Description">
-        {descriptions}
+        <article id="bdayMessage_justifyTop" style={ { "height": "80%" } }>
+          {descriptions}
+          {/* {attachments} */}
+        </article>
+        <article id="bdayMessage_justifyBottom" style={ {"height": "20%"} }>
+          {links}
+        </article>
       </article>
-    </acticle>
+    </article>
   }
   )
 
