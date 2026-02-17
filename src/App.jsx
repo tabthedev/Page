@@ -165,9 +165,9 @@ function Home() {
   return <>
     <h1>넣을게 없다</h1>
     <br />
-    <a href="birthday-2025">2025 생일</a>
+    <Link href="birthday-2025">2025 생일</Link>
     <br />
-    <a href="birthday-2026">2026 생일</a>
+    <Link href="birthday-2026">2026 생일</Link>
   </>
 }
 
