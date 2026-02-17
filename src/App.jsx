@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link, HashRouter } from "react-router-dom";
 
 import './index.css'
 import './assets/bday2025.css'
@@ -175,14 +175,14 @@ function Home() {
 function App() {
   return <>
     
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/birthday-2025" element={<Birthday2025/>}></Route>
         <Route path="/birthday-2026" element={<Birthday2026/>}></Route>
 
         <Route path="/" element={<Home/>}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </>
 }
 
