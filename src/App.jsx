@@ -56,9 +56,9 @@ function Birthday2026() {
       return <a href={v.href} target='_blank' id="bdayMessage_Link">{v.name}</a>
     })
 
-    // const attachments = object.files.map((path)=>{
-    //   return <img src={require(path)} alt="" />
-    // })
+    const attachments = object.files.map((path)=>{
+      return <img src={path} alt="" />
+    })
 
     return <article id='bdayMessage_Container' onClick=''>
       <p id="bdayMessage_Sender">이름 : {object.name} <sup>({object.nameType})</sup></p>
@@ -66,7 +66,7 @@ function Birthday2026() {
       <article id="bdayMessage_Description">
         <article id="bdayMessage_justifyTop" style={ { "height": "80%" } }>
           {descriptions}
-          {/* {attachments} */}
+          {attachments}
         </article>
         <article id="bdayMessage_justifyBottom" style={ {"height": "20%"} }>
           {links}
@@ -77,7 +77,7 @@ function Birthday2026() {
   )
 
   return (
-    <>
+    <div className='bday2026'>
       <header>
         <h2 style={ {
           textAlign: align,
@@ -97,7 +97,7 @@ function Birthday2026() {
       <section>
         {birthdayMessageElements}
       </section>
-    </>
+    </div>
   )
 }
 
