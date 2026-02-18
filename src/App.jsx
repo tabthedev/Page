@@ -79,19 +79,24 @@ function Birthday2026() {
   return (
     <div className='bday2026'>
       <header>
-        <h2 style={ {
-          textAlign: align,
-          display: 'block',
-          width: '100%',
-        } }>
-          <div className='birthdate'>
-            {pf}
-          </div>
-          태희 생일 축하해준 사람들 
-          <div className='birthdate'>
-            {af}
-          </div>
-        </h2>
+        <div style={{
+          "width": "100%",
+          "padding": "0 20px 0 20px"
+        }}>
+          <h2 style={ {
+            textAlign: align,
+            display: 'block',
+            width: '100%',
+          } }>
+            <div className='birthdate'>
+              {pf}
+            </div>
+            태희 생일 축하해준 사람들 
+            <div className='birthdate'>
+              {af}
+            </div>
+          </h2>
+        </div>
       </header>
 
       <section>
