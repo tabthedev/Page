@@ -84,13 +84,13 @@ function Birthday2026() {
           display: 'block',
           width: '100%',
         } }>
-          <a className='birthdate'>
+          <div className='birthdate'>
             {pf}
-          </a>
+          </div>
           태희 생일 축하해준 사람들 
-          <a className='birthdate'>
+          <div className='birthdate'>
             {af}
-          </a>
+          </div>
         </h2>
       </header>
 

@@ -5,7 +5,8 @@
         "nameType": "활동명",
         "description": [
             "' 메타인지가확실하구나~ ^_^ '",
-            "태희의 자캐를 그려주셨습니다 (고마워!!)"
+            "가장 먼저 음성에서 축하해줌ㅁ!",
+            "+ 태희의 자캐를 그려주셨습니다 (고마워!!)"
         ],
         "offsetFromStart": 0,
         "links": [
@@ -14,15 +15,251 @@
                 "href": "https://hanb1.straw.page/"
             }
         ],
-        "files": ["./assets/bday2026/HanB02.jpg"]
+        "files": ["HanB01.png", "HanB02.jpg"]
     },
     {
-        "name": "Nwb | 김지훈",
-        "nameType": "활동명 | 실명",
-        "description": ["듬직이"],
+        "name": "카모",
+        "nameType": "활동명",
+        "description": ["문자 축하중에선 가장 먼저 축하해주셨습니다!"],
+        "offsetFromStart": 3,
+        "links": [],
+        "files": ["밈서01.png"]
+    },
+    {
+        "name": "Nwb",
+        "nameType": "활동명",
+        "description": ["듬직이", "음성에서 축하해주었지만 기록 파일이 없다..."],
         "offsetFromStart": 6,
         "links": [],
         "files": []
+    },
+    {
+        "name": "이규코패스",
+        "nameType": "활동명",
+        "description": ["daddy..."],
+        "offsetFromStart": 6,
+        "links": [],
+        "files": ["이규원01.png"]
+    },
+    {
+        "name": "notyoursanyway",
+        "nameType": "활동명?",
+        "description": ["AI 쓰지마새오."],
+        "offsetFromStart": 16,
+        "links": [],
+        "files": ["황찬희01.png"]
+    },
+    {
+        "name": "김가은",
+        "nameType": "실명",
+        "description": ["세상에서 제일 예쁨 (이라고 본인이 적어달라 하셨습니다 ㅎㅎ)"],
+        "offsetFromStart": 22,
+        "links": [],
+        "files": ["김가은01.png", "김가은02.png", "김가은03.png", "김가은04.png", "김가은05.png"]
+    },
+    {
+        "name": "김정훈",
+        "nameType": "실명",
+        "description": ["잘지내렴 정훈아"],
+        "offsetFromStart": 67,
+        "links": [],
+        "files": ["김정훈01.png"]
+    },
+    {
+        "name": "나윤서",
+        "nameType": "실명",
+        "description": ["평소에 몸 잘 사리긔..."],
+        "offsetFromStart": 81,
+        "links": [],
+        "files": ["나윤서01.png"]
+    },
+    {
+        "name": "누니낸",
+        "nameType": "활동명",
+        "description": ["똥"],
+        "offsetFromStart": 95,
+        "links": [],
+        "files": ["뉴비맨01.png"]
+    },
+    {
+        "name": "김온우",
+        "nameType": "실명",
+        "description": ["멘헤라 케이크..?"],
+        "offsetFromStart": 101,
+        "links": [],
+        "files": ["김온우01.png", "김온우02.png"]
+    },
+    {
+        "name": "이호준",
+        "nameType": "실명",
+        "description": ["10년 지기"],
+        "offsetFromStart": 101,
+        "links": [],
+        "files": ["이호준01.png"]
+    },
+    {
+        "name": "박준우",
+        "nameType": "실명",
+        "description": ["헬창 행님"],
+        "offsetFromStart": 108,
+        "links": [],
+        "files": ["박준우01.png"]
+    },
+    {
+        "name": "박지현",
+        "nameType": "실명",
+        "description": ["고등학교 개망한 2인...", "5일 뒤에 성공적으로 생축 교환 완료,,"],
+        "offsetFromStart": 119,
+        "links": [],
+        "files": ["박지현01.png"]
+    },
+    {
+        "name": "김승림",
+        "nameType": "실명",
+        "description": ["작곡 실력 이런 데에 낭비하지 마라..."],
+        "offsetFromStart": 123,
+        "links": [
+            {
+                "name": "음악 파일",
+                "href": "https://cdn.discordapp.com/attachments/1372592807780552764/1470492976731132077/83115f990afa4278.mp3?ex=69975c4e&is=69960ace&hm=09ed305b249d26dc3ffd88a5c51dc924788c196bbac39b87530a636b29ca80f0&"
+            }
+        ],
+        "files": ["김승림01.png"]
+    },
+    {
+        "name": "심우준",
+        "nameType": "실명",
+        "description": ["우리동네 육상 최강"],
+        "offsetFromStart": 131,
+        "links": [],
+        "files": ["심우준01.png"]
+    },
+    {
+        "name": "박건우",
+        "nameType": "실명",
+        "description": ["말차케이크 먹고싶다..."],
+        "offsetFromStart": 238,
+        "links": [],
+        "files": ["박건우01.png", "박건우02.png"]
+    },
+    {
+        "name": "Yeeun",
+        "nameType": "활동명",
+        "description": ["감사티비!!!!!"],
+        "offsetFromStart": 288,
+        "links": [],
+        "files": ["예은01.png"]
+    },
+    {
+        "name": "Hina",
+        "nameType": "활동명",
+        "description": ["고먐먐먐먐먐먐먐먐먐먐먐먐이"],
+        "offsetFromStart": 296,
+        "links": [],
+        "files": ["hina01.png"]
+    },
+    {
+        "name": "이지혜",
+        "nameType": "실명",
+        "description": ["기숙 학교 잘 들어가 ㅠㅠㅠ"],
+        "offsetFromStart": 493,
+        "links": [],
+        "files": ["이지혜01.png"]
+    },
+    {
+        "name": "현잉",
+        "nameType": "활동명",
+        "description": ["'노프가 하라해서 한거임'", "빌드 개고수"],
+        "offsetFromStart": 516,
+        "links": [],
+        "files": ["박승현01.png"]
+    },
+    {
+        "name": "노프 (NOPE)",
+        "nameType": "활동명",
+        "description": ["내 지인 중 가장 유망한 아이"],
+        "offsetFromStart": 518,
+        "links": [],
+        "files": ["노프01.png"]
+    },
+    {
+        "name": "초론 | 박세현",
+        "nameType": "활동명 | 실명",
+        "description": ["스크립트 배워라ㅏ"],
+        "offsetFromStart": 621,
+        "links": [],
+        "files": ["박세현01.png"]
+    },
+    {
+        "name": "양성재",
+        "nameType": "실명",
+        "description": ["야구 열심히해!!!!!11111", "공부 열심히하자,,"],
+        "offsetFromStart": 639,
+        "links": [],
+        "files": ["양성재01.png"]
+    },
+    {
+        "name": "이도규",
+        "nameType": "실명",
+        "description": ["야구 열심히해!!!!!22222", "경찰 합격 화이팅"],
+        "offsetFromStart": 642,
+        "links": [],
+        "files": ["이도규.png"]
+    },
+    {
+        "name": "선우 | 예주",
+        "nameType": "???",
+        "description": ["omg script pro"],
+        "offsetFromStart": 975,
+        "links": [],
+        "files": ["밈서01.png"]
+    },
+    {
+        "name": "준수",
+        "nameType": "활동명 & 실명",
+        "description": ["멋진 오빠!!"],
+        "offsetFromStart": 1059,
+        "links": [],
+        "files": ["안준수01.png"]
+    },
+    {
+        "name": "앵커드",
+        "nameType": "내 팀",
+        "description": [
+            " > 에떼리움 : 수 년 동안 앵커드에서 활동하면서 즐거웠고 앞으로도 같이 개발합시다!",
+            " ",
+            " > 초론 : 에겐세현 ㅋ 멋진 게임 많이 만들자",
+            " ",
+            " > 준수 : 모델링 잘하는 옵빠 기대할겡",
+            " ",
+            " > 지원 : 부족한 스크립트 지식을 서로 의지하며 키워나갑시다,,",
+            " ",
+            " > 윤오리 : 항상 앵커드 커뮤니티 관리하시느라 고생이 많으십니다 🔧"
+        ],
+        "offsetFromStart": 1069,
+        "links": [
+            {
+                "name": "앵커드 길드 디스코드",
+                "href": "https://discord.gg/anchored"
+            }
+        ],
+        "files": ["앵커드01.png"]
+    },
+    {
+        "name": "박스 (box_3948)",
+        "nameType": "활동명",
+        "description": ["룸즈 시리즈 개발하느라 고생 많았다~"],
+        "offsetFromStart": 1396,
+        "links": [],
+        "files": ["박스01.png"]
+    },
+    {
+        "name": "빅",
+        "nameType": "활동명",
+        "description": ["(다른의미의) 테토녀 ㅋ", "34분 초과하셨읍니다."],
+        "offsetFromStart": 1474,
+        "links": [],
+        "files": ["빅01.png"]
     }
 ]
 }

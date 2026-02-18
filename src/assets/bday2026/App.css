@@ -9,7 +9,6 @@
 
 .bday2026 section  {
   width: 100vw;
-  height: 90%;
 
   padding-top: 10px;
 
@@ -37,6 +36,8 @@
 
 .bday2026 .birthdate {
   font-size: 18px;
+  font-weight: 500;
+  color: #535bf2;
 }
 
 
@@ -107,6 +108,10 @@
   font-size: 12px;
   font-weight: 200;
   color: rgb(255, 255, 255, .6);
+}
+
+.bday2026 #bdayMessage_descriptionText {
+  margin-bottom: 2px;
 }
 
 .bday2026 #bdayMessage_justifyTop {
