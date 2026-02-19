@@ -56,18 +56,23 @@ function Birthday2026() {
       return <a href={v.href} target='_blank' id="bdayMessage_Link">{v.name}</a>
     })
 
-    const attachments = object.files.map((path)=>{
+    const [imageIndex, setImageIndex] = useState(0);
+
+    const attachments = object.files.map((path, index)=>{
       // return <img src={`/bday2026/${path}`} alt="" style={{
       //   "width": "100%",
       //   "height": "100%",
       //   "backgroundSize": "cover"
       // }} />
 
-      return <div style={{
+      return <img src={`bday2026/${path}`} style={{
         "width": "100%",
         "height": "100%",
-        "background": `rgb(0,0,0,0) url(/bday2026/${path}) no-repeat fixed center`,
-        "backgroundSize": "cover"
+        "objectFit": "cover",
+        "overflow": "hidden",
+        "cursor": "pointer",
+        "borderRadius": "10px",
+        "padding": "0 2px 0 2px"
       }} />
     })
 
@@ -78,7 +83,9 @@ function Birthday2026() {
         <article id="bdayMessage_justifyTop" style={ { "height": "80%" } }>
           {descriptions}
           <div id="imageContainer" style={{
-            "height": "100px"
+            "height": "100px",
+            "display": "flex",
+            "borderRadius": "8px"
           }}>
             {attachments}
           </div>
