@@ -34,7 +34,7 @@ function ImageViewer() {
         "borderRadius": "10px",
 
         transition: "cubic-bezier(0,0,0.25,1) .3s"
-      }} id='GlowOnHover'/>
+      }} id='GlowOnHover' className='undraggable'/>
     </div>
 
     <div style={{
@@ -54,7 +54,7 @@ function ImageViewer() {
       cursor: "pointer"
     }} onClick={function(){
       setIsViewerActive(false)
-    }}>
+    }} className='undraggable'>
       닫기
     </div>
 
@@ -77,7 +77,7 @@ function ImageViewer() {
       } else {
         setImageIndex(currentIndex+1)
       }
-    }}>
+    }} className='undraggable'>
       {">"}
     </div>
 
@@ -101,7 +101,7 @@ function ImageViewer() {
         setImageIndex(currentIndex-1)
       }
       console.log(currentIndex, imageIndex)
-    }}>
+    }} className='undraggable'>
       {"<"}
     </div>
   </div>

@@ -99,3 +99,10 @@ button:focus-visible {
 #GlowOnHover:hover {
   filter: drop-shadow(0 0 12px rgb(255,255,255,.7));
 }
+
+.undraggable {
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
