@@ -63,7 +63,7 @@ function ImageViewer() {
       placeContent: "center",
 
       top: "50%",
-      right: "12px",
+      right: imageList.length <= 1 ? "100%" : "12px",
       width: "64px",
       height: "64px",
 
@@ -71,7 +71,12 @@ function ImageViewer() {
       filter: "drop-shadow(0 0 5px rgb(255,255,255, .5))",
       cursor: "pointer"
     }} onClick={function(){
-      setIsViewerActive(false)
+      const currentIndex = imageIndex
+      if (currentIndex >= imageList.length-1) {
+        setImageIndex(0)
+      } else {
+        setImageIndex(currentIndex+1)
+      }
     }}>
       {">"}
     </div>
@@ -81,7 +86,7 @@ function ImageViewer() {
       placeContent: "center",
 
       top: "50%",
-      left: "12px",
+      left: imageList.length <= 1 ? "100%" : "12px",
       width: "64px",
       height: "64px",
 
@@ -89,12 +94,13 @@ function ImageViewer() {
       filter: "drop-shadow(0 0 5px rgb(255,255,255, .5))",
       cursor: "pointer"
     }} onClick={function(){
-      const currentIndex = untrack(imageIndex)
+      const currentIndex = imageIndex
       if (currentIndex == 0) {
-        setImageIndex(untrack(imageList.length)-1)
+        setImageIndex(imageList.length-1)
       } else {
         setImageIndex(currentIndex-1)
       }
+      console.log(currentIndex, imageIndex)
     }}>
       {"<"}
     </div>
