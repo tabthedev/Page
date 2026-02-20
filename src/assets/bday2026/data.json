@@ -23,7 +23,7 @@
         "description": ["문자 축하중에선 가장 먼저 축하해주셨습니다!"],
         "offsetFromStart": 3,
         "links": [],
-        "files": ["밈서01.png"]
+        "files": ["카모01.png"]
     },
     {
         "name": "Nwb",
@@ -47,7 +47,7 @@
         "description": ["AI 쓰지마새오."],
         "offsetFromStart": 16,
         "links": [],
-        "files": ["황찬희01.png"]
+        "files": ["nyaw01.png"]
     },
     {
         "name": "김가은",
@@ -148,7 +148,7 @@
         "description": ["감사티비!!!!!"],
         "offsetFromStart": 288,
         "links": [],
-        "files": ["예은01.png"]
+        "files": ["Yeeun01.png"]
     },
     {
         "name": "Hina",
@@ -172,7 +172,7 @@
         "description": ["'노프가 하라해서 한거임'", "빌드 개고수"],
         "offsetFromStart": 516,
         "links": [],
-        "files": ["박승현01.png"]
+        "files": ["현잉01.png"]
     },
     {
         "name": "노프 (NOPE)",
@@ -220,7 +220,7 @@
         "description": ["멋진 오빠!!"],
         "offsetFromStart": 1059,
         "links": [],
-        "files": ["안준수01.png"]
+        "files": ["준뚜01.png"]
     },
     {
         "name": "앵커드",
