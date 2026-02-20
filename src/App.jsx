@@ -1,4 +1,5 @@
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
+import { StickyHeader } from "./StickyHeader.jsx";
 
 import './index.css'
 
@@ -6,8 +7,12 @@ import { Bday2025 } from './Bday2025.jsx'
 import { Birthday2026 } from './Birthday2026.jsx'
 
 function Home() {
+  const Header = StickyHeader(<h1>
+    넣을게 없다
+  </h1>)
+
   return <>
-    <h1>넣을게 없다</h1>
+    {Header}
     <br />
     <Link to="birthday-2025">2025 생일</Link>
     <br />

@@ -1,4 +1,5 @@
 import { ImageViewer } from './ImageViewer.jsx'
+import { StickyHeader } from './StickyHeader.jsx';
 
 import { data } from './assets/bday2026/data.json';
 import './assets/bday2026/App.css'
@@ -83,26 +84,20 @@ function Birthday2026() {
   }
   )
 
+  const Header = StickyHeader(<h2 style={ {
+    textAlign: 'center',
+    display: 'block',
+    width: '100%',
+  } }>
+    태희 생일 축하해준 사람들 
+    <div className='birthdate'>
+      {' (2026. 02. 06)'}
+    </div>
+  </h2>)
+
   return (
     <div className='bday2026'>
-      <header>
-        <div style={{
-          "width": "100%",
-          "padding": "0 20px 0 20px"
-        }}>
-          <h2 style={ {
-            textAlign: 'center',
-            display: 'block',
-            width: '100%',
-          } }>
-            태희 생일 축하해준 사람들 
-            <div className='birthdate'>
-              {' ' + '(2026. 02. 06)'}
-            </div>
-          </h2>
-        </div>
-      </header>
-
+      {Header}
       {ImageViewerElement}
 
       <section>
