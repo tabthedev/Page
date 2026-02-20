@@ -14,7 +14,7 @@ function Home() {
   return <>
     {Header}
     <br />
-    <Link to="birthday-2025">2025 생일</Link>
+    <Link to="birthday-2025-legacy">2025 생일 (레거시)</Link>
     <br />
     <Link to="birthday-2026">2026 생일</Link>
   </>
@@ -26,7 +26,7 @@ function App() {
     
     <HashRouter>
       <Routes>
-        <Route path="/birthday-2025" element={<Bday2025/>}></Route>
+        <Route path="/birthday-2025-legacy" element={<Bday2025/>}></Route>
         <Route path="/birthday-2026" element={<Birthday2026/>}></Route>
 
         <Route path="/" element={<Home/>}></Route>
