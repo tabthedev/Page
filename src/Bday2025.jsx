@@ -1,5 +1,7 @@
 import './assets/bday2025.css'
 
+// 이 페이지는 원래 react로 작성된 페이지가 아님.
+
 function Bday2025(){
   return (
     <div style={{"backgroundColor": "rgb(50,50,60)", "margin": "10px 0 0 0"}} className='bday2025Root'>
