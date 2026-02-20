@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link, HashRouter } from "react-router-dom";
 
 import './index.css'
@@ -6,6 +6,68 @@ import './assets/bday2025.css'
 import './assets/bday2026/App.css'
 
 import { data } from './assets/bday2026/data.json';
+
+function ImageViewerApp() {
+  const [isViewerActive, setIsViewerActive] = useState(false);
+  const [imageIndex, setImageIndex] = useState(0);
+  const [imageList, setImageList] = useState([]);
+
+  const container = <div className="ImageViewer" style={{
+    // display: "flex",
+    position: "fixed",
+    bottom: isViewerActive ? "0%" : "100%",
+    left: "50%",
+    transform: "translateX(-50%)",
+    background: "rgb(11,11,11, .3)",
+    width: "100%",
+    height: "100%",
+
+    transition: "cubic-bezier(0,0,0.25,1) .5s"
+  }}>
+
+    <div style={{
+      position: "absolute",
+      placeContent: "center",
+      width: "100%",
+      height: "100%",
+    }}>
+      <img src={`bday2026/${imageList[imageIndex]}`} style={{
+        "width": "auto",
+        "height": "auto",
+        "maxWidth": "500px",
+        "maxHeight": "100%",
+        "objectFit": "contain",
+        "borderRadius": "10px",
+
+        transition: "cubic-bezier(0,0,0.25,1) .3s"
+      }} id='GlowOnHover'/>
+    </div>
+
+    <div style={{
+      position: "absolute",
+      placeContent: "center",
+
+      top: "12px",
+      right: "12px",
+      width: "64px",
+      height: "64px",
+
+      backgroundColor: "#242424",
+      border: "2px",
+      borderStyle: "solid",
+      borderColor: "rgb(255,255,255, .4)",
+      borderRadius: "8px",
+      cursor: "pointer"
+    }} onClick={function(){
+      setIsViewerActive(false)
+    }}>
+      닫기
+    </div>
+  </div>
+
+  return [container, setIsViewerActive, setImageIndex, setImageList]
+}
+
 
 function FormatHour(hour){
   let prefix = ''
@@ -25,24 +87,15 @@ function FormatHour(hour){
 }
 
 function Birthday2026() {
-  let align
+  const [ImageViewerElement, setIsViewerActive, setImageIndex, setImageList] = ImageViewerApp();
 
-  let pf = ''
-  let af = ''
-
-  const tempRand01 = Math.random()
-
-  if (tempRand01 < 0.333) {
-    align = "left"
-    af = " (2026. 02. 06.)"
-  } else if (tempRand01 < 0.667) {
-    align = "center"
-    af = " (2026. 02. 06.)"
-  } else {
-    align = "right"
-    pf = "(2026. 02. 06.) "
+  function OpenImage(index, list) {
+    return function() {
+      setImageIndex(index)
+      setImageList(list)
+      setIsViewerActive(true)
+    }
   }
-
 
   const birthdayMessageElements = data.map((object)=>{
     let hour = Math.floor(object.offsetFromStart/60)
@@ -56,9 +109,7 @@ function Birthday2026() {
       return <a href={v.href} target='_blank' id="bdayMessage_Link">{v.name}</a>
     })
 
-    const [imageIndex, setImageIndex] = useState(0);
-
-    const attachments = object.files.map((path, index)=>{
+    const attachments = object.files.map((path, index, arr)=>{
       // return <img src={`/bday2026/${path}`} alt="" style={{
       //   "width": "100%",
       //   "height": "100%",
@@ -72,8 +123,8 @@ function Birthday2026() {
         "overflow": "hidden",
         "cursor": "pointer",
         "borderRadius": "10px",
-        "padding": "0 2px 0 2px"
-      }} />
+        "margin": "0 2px 0 2px"
+      }} onClick={OpenImage(index, arr)}/>
     })
 
     return <article id='bdayMessage_Container' onClick=''>
@@ -106,20 +157,19 @@ function Birthday2026() {
           "padding": "0 20px 0 20px"
         }}>
           <h2 style={ {
-            textAlign: align,
+            textAlign: 'center',
             display: 'block',
             width: '100%',
           } }>
-            <div className='birthdate'>
-              {pf}
-            </div>
             태희 생일 축하해준 사람들 
             <div className='birthdate'>
-              {af}
+              {' ' + '(2026. 02. 06)'}
             </div>
           </h2>
         </div>
       </header>
+
+      {ImageViewerElement}
 
       <section>
         {birthdayMessageElements}
