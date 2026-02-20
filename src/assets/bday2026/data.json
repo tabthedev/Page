@@ -224,7 +224,7 @@
     },
     {
         "name": "앵커드",
-        "nameType": "내 팀",
+        "nameType": "우리 팀",
         "description": [
             " > 에떼리움 : 수 년 동안 앵커드에서 활동하면서 즐거웠고 앞으로도 같이 개발합시다!",
             " ",
@@ -243,7 +243,7 @@
                 "href": "https://discord.gg/anchored"
             }
         ],
-        "files": ["앵커드01.jpg"]
+        "files": ["앵커드01.jpg", "앵커드02.jpg"]
     },
     {
         "name": "박스 (box_3948)",
