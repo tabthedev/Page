@@ -28,7 +28,8 @@ function MinatoGallery() {
         
       }}>
       <img src={imagePath} style={{
-        // "width": true ? "100%" : "auto",
+        width: "100%",
+        height: "100%",
         "objectFit": "contain",
         "cursor": "pointer",
         "borderRadius": "10px",
