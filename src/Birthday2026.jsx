@@ -22,15 +22,7 @@ function FormatHour(hour){
 }
 
 function Birthday2026() {
-  const [ImageViewerElement, setIsViewerActive, setImageIndex, setImageList] = ImageViewer();
-
-  function OpenImage(index, list) {
-    return function() {
-      setImageIndex(index)
-      setImageList(list)
-      setIsViewerActive(true)
-    }
-  }
+  const [ImageViewerElement, OpenImage] = ImageViewer();
 
   const birthdayMessageElements = data.map((object)=>{
     let hour = Math.floor(object.offsetFromStart/60)
@@ -44,14 +36,18 @@ function Birthday2026() {
       return <a href={v.href} target='_blank' id="bdayMessage_Link">{v.name}</a>
     })
 
-    const attachments = object.files.map((path, index, arr)=>{
+    const imagePathArray = object.files.map((path)=>{
+      return `bday2026/${path}`
+    })
+
+    const attachments = imagePathArray.map((path, index, arr)=>{
       // return <img src={`/bday2026/${path}`} alt="" style={{
       //   "width": "100%",
       //   "height": "100%",
       //   "backgroundSize": "cover"
       // }} />
 
-      return <img src={`bday2026/${path}`} style={{
+      return <img src={path} style={{
         "width": "100%",
         "height": "100%",
         "objectFit": "cover",

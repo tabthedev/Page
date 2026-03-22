@@ -25,7 +25,7 @@ function ImageViewer() {
       width: "100%",
       height: "100%",
     }}>
-      <img src={`bday2026/${imageList[imageIndex]}`} style={{
+      <img src={`${imageList[imageIndex]}`} style={{
         "width": "auto",
         "height": "auto",
         "maxWidth": "500px",
@@ -106,7 +106,15 @@ function ImageViewer() {
     </div>
   </div>
 
-  return [container, setIsViewerActive, setImageIndex, setImageList]
+  function OpenImage(index, list) {
+    return function() {
+      setImageIndex(index)
+      setImageList(list)
+      setIsViewerActive(true)
+    }
+  }
+
+  return [container, OpenImage]
 }
 
 export {ImageViewer}

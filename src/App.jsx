@@ -5,6 +5,9 @@ import './index.css'
 
 import { Bday2025 } from './Bday2025.jsx'
 import { Birthday2026 } from './Birthday2026.jsx'
+import { MinatoGallery } from "./MinatoGallery.jsx";
+
+
 
 function Home() {
   const Header = StickyHeader(<h1>
@@ -17,6 +20,8 @@ function Home() {
     <Link to="birthday-2025-legacy">2025 생일 (레거시)</Link>
     <br />
     <Link to="birthday-2026">2026 생일</Link>
+    <br />
+    <Link to="minato-my-beloved">미나토 갤러리</Link>
   </>
 }
 
@@ -28,6 +33,7 @@ function App() {
       <Routes>
         <Route path="/birthday-2025-legacy" element={<Bday2025/>}></Route>
         <Route path="/birthday-2026" element={<Birthday2026/>}></Route>
+        <Route path="/minato-my-beloved" element={<MinatoGallery/>}></Route>
 
         <Route path="/" element={<Home/>}></Route>
       </Routes>
