@@ -37,7 +37,7 @@ function ImageViewer() {
       }} id='GlowOnHover' className='undraggable'/>
     </div>
 
-    <div style={{
+    <h2 style={{
       position: "absolute",
       placeContent: "center",
 
@@ -55,8 +55,8 @@ function ImageViewer() {
     }} onClick={function(){
       setIsViewerActive(false)
     }} className='undraggable'>
-      닫기
-    </div>
+      X
+    </h2>
 
     <div style={{
       position: "absolute",
