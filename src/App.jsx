@@ -6,6 +6,7 @@ import './index.css'
 import { Bday2025 } from './Bday2025.jsx'
 import { Birthday2026 } from './Birthday2026.jsx'
 import { MinatoGallery } from "./MinatoGallery.jsx";
+import { MinitoBot_PrivacyPolicy } from "./minito/PrivacyPolicy.jsx";
 
 
 
@@ -45,6 +46,8 @@ function App() {
         <Route path="/minato-my-beloved" element={<MinatoGallery/>}></Route>
 
         <Route path="/" element={<Home/>}></Route>
+
+        <Route path="/minito-bot/privacy-policy" element={<MinitoBot_PrivacyPolicy/>}></Route>
       </Routes>
     </HashRouter>
   </>
