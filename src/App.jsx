@@ -8,6 +8,7 @@ import { Birthday2026 } from './Birthday2026.jsx'
 import { MinatoGallery } from "./MinatoGallery.jsx";
 import { MinitoBot_PrivacyPolicy } from "./minito/PrivacyPolicy.jsx";
 import { MinitoBot_TermsOfService } from "./minito/TermsOfService.jsx";
+import { MinitoBot_MainPage } from "./minito/MainPage.jsx";
 
 
 
@@ -23,7 +24,7 @@ function Home() {
       marginBottom: "5px"
     }}>프로필</h2>
     <Link to="https://www.github.com/tabthedev">깃허브</Link>
-    <br />
+
     <h2 style={{
       marginBottom: "5px"
     }}>관상용</h2>
@@ -33,8 +34,18 @@ function Home() {
     <br />
     <br />
     <Link to="minato-my-beloved">미나토 갤러리</Link>
+    
+    <h2 style={{
+      marginBottom: "5px"
+    }}>미니토 디스코드 봇</h2>
+    <Link to="minito-bot">봇 링크</Link>
+    <br />
+    <Link to="minito-bot/privacy-policy">개인정보처리방침 (영문)</Link>
+    <br />
+    <Link to="minito-bot/terms-of-service">이용약관 (영문)</Link>
   </>
 }
+
 
 function App() {
   return <>
@@ -47,6 +58,7 @@ function App() {
 
         <Route path="/" element={<Home/>}></Route>
 
+        <Route path="/minito-bot" element={<MinitoBot_MainPage/>}></Route>
         <Route path="/minito-bot/privacy-policy" element={<MinitoBot_PrivacyPolicy/>}></Route>
         <Route path="/minito-bot/terms-of-service" element={<MinitoBot_TermsOfService/>}></Route>
       </Routes>
