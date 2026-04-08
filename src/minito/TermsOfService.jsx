@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { StickyHeader } from '../StickyHeader'
 import './style.css'
 
@@ -8,7 +9,7 @@ export function MinitoBot_TermsOfService() {
 
 
         This Terms of Service Agreement (the "Agreement") is entered into between <b>TAB; tabthedev</b> ("Bot Owner") and the user ("User") of the <b>Minito-bot</b> Discord bot (the "Bot"). <br /> <br />
-
+        
         By using the Bot, the User agrees to be bound by <Link to="https://discord.com/terms">Discord's TOS</Link> <br />
 
         By using the Bot, the User agrees to be bound by the terms of this Agreement. <br />
