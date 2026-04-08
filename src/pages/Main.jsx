@@ -4,10 +4,12 @@ import { StickyHeader } from "../utils/StickyHeader.jsx";
 import '../index.css'
 import { Bday2025 } from "./birthday/2025/Bday2025.jsx";
 import { Birthday2026 } from "./birthday/2026/Birthday2026.jsx";
-import { MinatoGallery } from "./minato/MinatoGallery.jsx";
-import { MinitoBot_MainPage } from "./minato/minito/MainPage.jsx";
-import { MinitoBot_TermsOfService } from "./minato/minito/TermsOfService.jsx";
-import { MinitoBot_PrivacyPolicy } from "./minato/minito/PrivacyPolicy.jsx";
+
+import { MinatoGallery } from "./minato/minatoGallery/MinatoGallery.jsx";
+
+import { MinitoBot_MainPage } from "./minato/minitoBot/MainPage.js";
+import { MinitoBot_TermsOfService } from "./minato/minitoBot/TermsOfService.jsx";
+import { MinitoBot_PrivacyPolicy } from "./minato/minitoBot/PrivacyPolicy.jsx";
 
 // import { Bday2025 } from './birthday/Bday2025.jsx'
 // import { Birthday2026 } from './Birthday2026.jsx'
