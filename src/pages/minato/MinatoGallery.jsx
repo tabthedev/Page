@@ -1,5 +1,5 @@
-import { ImageViewer } from "./utils/ImageViewer.jsx";
-import { StickyHeader } from "./utils/StickyHeader.jsx";
+import { ImageViewer } from "../../utils/ImageViewer.jsx";
+import { StickyHeader } from "../../utils/StickyHeader.jsx";
 
 import { data } from './assets/minatoGallery/data.json';
 import './assets/minatoGallery/App.css';

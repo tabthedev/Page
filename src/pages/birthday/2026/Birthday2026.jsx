@@ -1,8 +1,8 @@
 import { ImageViewer } from './utils/ImageViewer.jsx'
 import { StickyHeader } from './utils/StickyHeader.jsx';
 
-import { data } from './assets/bday2026/data.json';
-import './assets/bday2026/App.css'
+import { data } from './data.json';
+import './App.css'
 
 function FormatHour(hour){
   let prefix = ''
