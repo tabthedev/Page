@@ -13,6 +13,7 @@ export function MinitoBot_PrivacyPolicy() {
 
         We collect information that you provide to us through your use of the bot, such as your Discord user ID and username, server and channel information, and message content. <br />
         We may also collect usage data, such as the frequency and duration of your use of the bot. <br />
+        <u>In particular, We may track your interactions with the bot, including commands used and responses received, to improve our services and provide a better user experience.</u>
 
         <h2>How We Use Your Information</h2>
 
@@ -43,6 +44,6 @@ export function MinitoBot_PrivacyPolicy() {
 
         <h2>Effective Date</h2>
 
-        This Privacy Policy is effective as of [Effective Date].
+        This Privacy Policy is effective as this bot gets removed.
     </div>
 }
