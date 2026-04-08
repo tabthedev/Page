@@ -1,4 +1,4 @@
-import './bday2025.css'
+import './style.css'
 
 // 이 페이지는 원래 react로 작성된 페이지가 아님.
 

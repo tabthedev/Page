@@ -1,0 +1,58 @@
+.bday2025Root * {
+    text-align: left;
+}
+
+
+@font-face {
+    font-family: 'Gyeonggi_Title_Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bday2025Root * {
+    font-family: "Gyeonggi_Title_Medium";
+    color: white;
+}
+
+.bday2025Root h1 {
+    display: block;
+    width: 100%;
+    height: 6vh;
+    margin: 0 0 0 0;
+    
+    align-content: center;
+    text-align: center;
+    
+    background-color: rgb(70,70,80);
+}
+
+.bday2025Root ul.TargetTable * {
+    color: white;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.bday2025Root #time {
+    color: rgb(200,200,200);
+    font-size: small;
+}
+
+.bday2025Root .PicGroup {
+    width: 100%;
+
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    column-count: 3;
+    grid-template-columns: repeat(3, auto);
+    column-rule-style: dashed;
+}
+
+.bday2025Root .PicGroup * {
+    display: block;
+    background-color: white;
+    width: 30vw;
+    height: auto;
+    margin-bottom: 10px;
+}
