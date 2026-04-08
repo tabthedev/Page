@@ -7,7 +7,7 @@ import { Birthday2026 } from "./birthday/2026/Birthday2026.jsx";
 
 import { MinatoGallery } from "./minato/minatoGallery/MinatoGallery.jsx";
 
-import { MinitoBot_MainPage } from "./minato/minitoBot/MainPage.js";
+import { MinitoBot_MainPage } from "./minato/minitoBot/MainPage.jsx";
 import { MinitoBot_TermsOfService } from "./minato/minitoBot/TermsOfService.jsx";
 import { MinitoBot_PrivacyPolicy } from "./minato/minitoBot/PrivacyPolicy.jsx";
 
