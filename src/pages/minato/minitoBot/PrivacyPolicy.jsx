@@ -1,4 +1,4 @@
-import { StickyHeader } from '../../../utils/StickyHeader.jsx';
+import StickyHeader from '../../../utils/StickyHeader.jsx';
 import './style.css'
 
 export function MinitoBot_PrivacyPolicy() {

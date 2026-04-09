@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import { StickyHeader } from '../../../utils/StickyHeader.jsx';
+import StickyHeader from '../../../utils/StickyHeader.jsx';
 import './style.css'
 
 export function MinitoBot_TermsOfService() {
     return <div className='minitoBotInfos'>
         {StickyHeader(<h1 style={{textAlign: "center", justifyItems: "center"}}>Terms of Service Agreement for "Minito-bot"</h1>)}
-        <div style={{height:"20px"}}></div>
 
 
         This Terms of Service Agreement (the "Agreement") is entered into between <b>TAB; tabthedev</b> ("Bot Owner") and the user ("User") of the <b>Minito-bot</b> Discord bot (the "Bot"). <br /> <br />

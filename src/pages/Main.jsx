@@ -1,5 +1,5 @@
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
-import { StickyHeader } from "../utils/StickyHeader.jsx";
+import StickyHeader from "../utils/StickyHeader.jsx";
 
 import '../index.css'
 import { Bday2025 } from "./birthday/2025/Bday2025.jsx";

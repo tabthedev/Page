@@ -117,4 +117,4 @@ function ImageViewer() {
   return [container, OpenImage]
 }
 
-export {ImageViewer}
+export default ImageViewer

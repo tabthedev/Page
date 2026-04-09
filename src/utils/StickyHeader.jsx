@@ -24,7 +24,9 @@ function StickyHeader(elementToInsert) {
             {elementToInsert}
         </div>
       </header>
+      
+      <div style={{height:"20px"}}></div>
     </>
 }
 
-export {StickyHeader}
+export default StickyHeader
