@@ -40,23 +40,23 @@ function Bday2025(){
 
     <h1 style={{"fontSize": "2em"}}>축하메시지 모음</h1>
     <div class="PicGroup">
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/01.png" alt="임준렬" />
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/02.png" alt="하종 형"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/03.png" alt="양성재 & 박예나 & 수리"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/04.png" alt="김서은 (서곶초 예비 6학년)"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/05.png" alt="이예주"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/06.png" alt="나윤서"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/07.png" alt="김현우"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/08.png" alt="이호준"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/09.png" alt="유담"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/10.png" alt="유건"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/11.png" alt="김정훈"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/12.png" alt="데이비드"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/13.png" alt="김준우"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/14.png" alt="박스"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/15.png" alt="양세돌"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/16.png" alt="포인"/>
-        <img src="https://NOTTABTHEDEVANYMORE.github.io/main/BDAY2025/17.png" alt="뉴비맨"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/01.png" alt="임준렬" />
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/02.png" alt="하종 형"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/03.png" alt="양성재 & 박예나 & 수리"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/04.png" alt="김서은 (서곶초 예비 6학년)"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/05.png" alt="이예주"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/06.png" alt="나윤서"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/07.png" alt="김현우"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/08.png" alt="이호준"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/09.png" alt="유담"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/10.png" alt="유건"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/11.png" alt="김정훈"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/12.png" alt="데이비드"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/13.png" alt="김준우"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/14.png" alt="박스"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/15.png" alt="양세돌"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/16.png" alt="포인"/>
+        <img src="https://www.tabthedev.kro.kr/BDAY2025/17.png" alt="뉴비맨"/>
     </div>
 </div>
   )
