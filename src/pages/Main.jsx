@@ -42,14 +42,14 @@ function Home() {
     <br />
     <Link to="minato-my-beloved">미나토 갤러리</Link>
     
-    <h2 style={{
+    {/* <h2 style={{
       marginBottom: "5px"
     }}>미니토 디스코드 봇</h2>
     <Link to="minito-bot">봇 링크</Link>
     <br />
     <Link to="minito-bot/privacy-policy">개인정보처리방침 (영문)</Link>
     <br />
-    <Link to="minito-bot/terms-of-service">이용약관 (영문)</Link>
+    <Link to="minito-bot/terms-of-service">이용약관 (영문)</Link> */}
   </>
 }
 
