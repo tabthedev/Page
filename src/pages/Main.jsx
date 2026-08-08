@@ -1,5 +1,5 @@
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
-import StickyHeader from "../utils/StickyHeader.jsx";
+import StickyHeader from "../templates/designV0/StickyHeader.jsx";
 
 import '../index.css'
 import { Bday2025 } from "./birthday/2025/Bday2025.jsx";
@@ -10,6 +10,8 @@ import { MinatoGallery } from "./minato/minatoGallery/MinatoGallery.jsx";
 import { MinitoBot_MainPage } from "./minato/minitoBot/MainPage.jsx";
 import { MinitoBot_TermsOfService } from "./minato/minitoBot/TermsOfService.jsx";
 import { MinitoBot_PrivacyPolicy } from "./minato/minitoBot/PrivacyPolicy.jsx";
+import Redirect from "../templates/designV0/Redirect.jsx";
+import Portfolios from "./portfolios/Portfolios.jsx";
 
 // import { Bday2025 } from './birthday/Bday2025.jsx'
 // import { Birthday2026 } from './Birthday2026.jsx'
@@ -69,6 +71,10 @@ function App() {
         <Route path="/minito-bot" element={<MinitoBot_MainPage/>}></Route>
         <Route path="/minito-bot/privacy-policy" element={<MinitoBot_PrivacyPolicy/>}></Route>
         <Route path="/minito-bot/terms-of-service" element={<MinitoBot_TermsOfService/>}></Route>
+
+        <Route path="/portfolios" element={<Portfolios/>}>
+        
+        </Route>
       </Routes>
     </HashRouter>
   </>
