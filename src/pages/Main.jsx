@@ -64,6 +64,7 @@ function App() {
         <Route path="/minato-my-beloved" element={<MinatoGallery/>}></Route>
 
         <Route path="/" element={<Home/>}></Route>
+        <Route path="/*" element={Redirect("./")}></Route>
 
         <Route path="/minito-bot" element={<MinitoBot_MainPage/>}></Route>
         <Route path="/minito-bot/privacy-policy" element={<MinitoBot_PrivacyPolicy/>}></Route>
