@@ -61,12 +61,13 @@ function App() {
     
     <HashRouter>
       <Routes>
-        <Route path="/birthday-2025-legacy" element={<Bday2025/>}></Route>
-        <Route path="/birthday-2026" element={<Birthday2026/>}></Route>
-        <Route path="/minato-my-beloved" element={<MinatoGallery/>}></Route>
-
         <Route path="/" element={<Home/>}></Route>
         <Route path="/*" element={Redirect("./")}></Route>
+
+        <Route path="/birthday-2025-legacy" element={<Bday2025/>}></Route>
+        <Route path="/birthday-2026" element={<Birthday2026/>}></Route>
+
+        <Route path="/minato-my-beloved" element={<MinatoGallery/>}></Route>
 
         <Route path="/minito-bot" element={<MinitoBot_MainPage/>}></Route>
         <Route path="/minito-bot/privacy-policy" element={<MinitoBot_PrivacyPolicy/>}></Route>
