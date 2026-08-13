@@ -20,6 +20,10 @@
 }
 
 
+body {
+    scrollbar-gutter: stable both-edges;
+}
+
 
 :root {
     font-family: 'GMarketSans';

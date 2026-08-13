@@ -6,33 +6,5 @@ export default function Portfolios() {
         {StickyHeader(StickyHeaderHeading("포트폴리오"))}
         <h1>A</h1>
         <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
-        <h1>A</h1>
     </>
 }

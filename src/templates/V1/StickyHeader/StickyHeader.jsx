@@ -3,14 +3,13 @@ import ThemeColoredImg from '../ThemeColoredImg'
 import './StickyHeader.css'
 
 export default function StickyHeader(content) {
+    // document.querySelector("#root").style.
+
     return <header id="v1_StickyHeader" style={{
         display: "flex",
-        position: "fixed",
-        width: "100%",
+        position: "sticky",
+        width: "100% -12px",
         top: 0,
-        left: "50%",
-        transform: "translateX(-50%)",
-        margin: "auto"
     }}>
         <div id='v1_StickyHeader_leftContainer'>
             {content}
