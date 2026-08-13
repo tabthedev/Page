@@ -27,10 +27,9 @@
     font-weight: 400;
 
     color-scheme: dark;
-    color: rgb(243, 246, 255, .8);
+    color: rgb(245, 245, 245, .8);
     background-color: #242426;
 }
-
 
 #v1_background {
     background-color: #101011;
@@ -52,7 +51,21 @@ a:hover {
 }
 
 @media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: dark;
+        color: rgb(0,0,0 .8);
+        background-color: rgb(245,245,245);
+    }
 
+    #v1_background {
+        background-color: #101011;
+    }
+    #v1_outerContainer {
+
+    }
+    #v1_innerContainer {
+
+    }
 }
 
 
@@ -80,4 +93,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+
+#v1_whiteSillouette {
+    -webkit-filter: brightness(0) invert(1); 
+    filter: brightness(0) invert(1);
 }

@@ -1,5 +1,5 @@
-import StickyHeader from "../../templates/V1/StickyHeader"
-import StickyHeaderHeading from "../../templates/V1/StickyHeaderHeading"
+import StickyHeader from "../../templates/V1/StickyHeader/StickyHeader"
+import StickyHeaderHeading from "../../templates/V1/StickyHeader/StickyHeaderHeading"
 
 export default function Portfolios() {
     return <>
