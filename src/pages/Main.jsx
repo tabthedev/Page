@@ -1,7 +1,7 @@
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
 import StickyHeader from "../templates/designV0/StickyHeader.jsx";
 
-import '../index.css'
+import '../templates/V1/v1.css'
 import { Bday2025 } from "./birthday/2025/Bday2025.jsx";
 import { Birthday2026 } from "./birthday/2026/Birthday2026.jsx";
 

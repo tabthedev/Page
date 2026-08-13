@@ -3,5 +3,6 @@
 Used React + Vite since 2026. 02. 14.
 
 # Rulesets
-ID -> design things
-Class -> functional things
+ID -> design things<br>
+Class -> functional things<br><br>
+

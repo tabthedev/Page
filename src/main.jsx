@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import App from './pages/Main.jsx'
+import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
