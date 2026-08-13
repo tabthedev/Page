@@ -1,8 +1,9 @@
-import StickyHeader from "../../templates/designV0/StickyHeader"
+import StickyHeader from "../../templates/V1/StickyHeader"
+import StickyHeaderHeading from "../../templates/V1/StickyHeaderHeading"
 
 export default function Portfolios() {
     return <>
-        {StickyHeader(<h1>포트폴리오</h1>)}
+        {StickyHeader(StickyHeaderHeading("포트폴리오"))}
         
     </>
 }
