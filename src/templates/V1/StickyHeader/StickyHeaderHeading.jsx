@@ -4,7 +4,8 @@ export default function StickyHeaderHeading(headingContent) {
         fontSize: "1.8em",
         lineHeight: "1",
         margin: "0",
-        textAlign: "left"
+        textAlign: "left",
+        color: "rgba(245, 245, 245, .8)"
     }}>
         {headingContent}
     </p>

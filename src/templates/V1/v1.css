@@ -56,9 +56,11 @@ a:hover {
 
 @media (prefers-color-scheme: light) {
     :root {
-        color-scheme: dark;
-        color: rgb(0,0,0 .8);
         background-color: rgb(245,245,245);
+    }
+
+    * {
+        color: #242426;
     }
 
     #v1_background {
