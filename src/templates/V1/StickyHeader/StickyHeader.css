@@ -1,0 +1,38 @@
+#v1_StickyHeader {
+    padding: 24px;
+    margin-bottom: 16px;
+    height: auto;
+    vertical-align: middle;
+
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.2) 8%);
+}
+
+#v1_StickyHeader_leftContainer {
+    display: flex;
+    height: 1.8em;
+    width: 50%;
+    flex-direction: row;
+    gap: 12px;
+}
+#v1_StickyHeader_rightContainer {
+    display: flex;
+    height: 1.8em;
+    width: 50%;
+    flex-direction: row-reverse;
+    gap: 12px;
+}
+
+#v1_StickyHeader ** {
+    min-height: 100%;
+    max-height: 100%;
+}
+#v1_StickyHeader **:hover {
+    min-height: 105%;
+    max-height: 105%;
+}
+
+@media (prefers-color-scheme: light) {
+    #v1_StickyHeader {
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(255, 88, 219, 0.77) 12%);
+    }
+}
