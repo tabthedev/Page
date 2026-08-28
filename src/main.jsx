@@ -15,6 +15,7 @@ import { MinitoBot_TermsOfService } from "./pages/minato/minitoBot/TermsOfServic
 import { MinitoBot_PrivacyPolicy } from "./pages/minato/minitoBot/PrivacyPolicy.jsx";
 import Redirect from "./templates/designV0/Redirect.jsx";
 import Portfolios from "./pages/portfolios/Portfolios.jsx";
+import BirthdayPage_Hina2026 from "./pages/birthday/2026/hina/hinaBDay2026.jsx";
 
 import './index.css'
 
@@ -61,6 +62,7 @@ createRoot(document.getElementById('root')).render(
 
         <Route path="/birthday/2025-legacy" element={<Bday2025/>}></Route>
         <Route path="/birthday/2026" element={<Birthday2026/>}></Route>
+        <Route path="/birthday/hina-2026" element={<BirthdayPage_Hina2026/>}></Route>
 
         <Route path="/minato-my-beloved" element={<MinatoGallery/>}></Route>
 
