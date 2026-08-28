@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import ThemeColoredImg from '../ThemeColoredImg'
 import './StickyHeader.css'
 
-export default function StickyHeader(content) {
+export default function v1_StickyHeader(content) {
     // document.querySelector("#root").style.
 
     return <header id="v1_StickyHeader" style={{

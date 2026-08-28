@@ -1,4 +1,4 @@
-export default function StickyHeaderHeading(headingContent) {
+export default function v1_StickyHeaderHeading(headingContent) {
     return <p style={{
         fontWeight: "600",
         fontSize: "1.8em",
