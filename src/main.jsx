@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
 
-import StickyHeader from "./templates/designV0/StickyHeader.jsx";
+import StickyHeader from "./templates/V1/StickyHeader/StickyHeader.jsx";
 
 import './templates/V1/v1.css'
 import { Bday2025 } from "./pages/birthday/2025/Bday2025.jsx";
@@ -18,11 +18,10 @@ import Portfolios from "./pages/portfolios/Portfolios.jsx";
 import BirthdayPage_Hina2026 from "./pages/birthday/2026/hina/hinaBDay2026.jsx";
 
 import './index.css'
+import v1_StickyHeaderHeading from './templates/V1/StickyHeader/StickyHeaderHeading.jsx';
 
 function Home() {
-  const Header = StickyHeader(<h1>
-    넣을게 없다
-  </h1>)
+  const Header = StickyHeader(v1_StickyHeaderHeading("넣을게 없다"))
 
   return <>
     {Header}
