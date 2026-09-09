@@ -25,7 +25,9 @@ function Home() {
 
   return <>
     {Header}
-    <br />
+
+    
+
     <h2 style={{
       marginBottom: "5px"
     }}>프로필</h2>
