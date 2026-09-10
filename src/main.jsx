@@ -19,13 +19,14 @@ import BirthdayPage_Hina2026 from "./pages/birthday/2026/hina/hinaBDay2026.jsx";
 
 import './index.css'
 import v1_StickyHeaderHeading from './templates/V1/StickyHeader/StickyHeaderHeading.jsx';
+import Box from './templates/V1/Articles/Box.jsx';
 
 function Home() {
   const Header = StickyHeader(v1_StickyHeaderHeading("넣을게 없다"))
 
   return <>
     {Header}
-
+    <Box></Box>
     
 
     <h2 style={{
