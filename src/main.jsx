@@ -26,7 +26,9 @@ function Home() {
 
   return <>
     {Header}
-    <Box></Box>
+    <Box>
+      asdf
+    </Box>
     
 
     <h2 style={{
