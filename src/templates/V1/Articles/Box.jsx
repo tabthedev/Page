@@ -8,6 +8,7 @@ export default class v1_Box extends Component {
     render() {
         return <div id="v1_Box">
             <h3>프로필</h3>
+            안녕
         </div>
     }
 }
