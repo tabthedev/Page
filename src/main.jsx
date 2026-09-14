@@ -27,14 +27,15 @@ function Home() {
   return <>
     {Header}
     <Box>
-      asdf
+      <h3>프로필</h3>
+      
+      <Link to="https://www.github.com/tabthedev">깃허브</Link>
     </Box>
     
 
     <h2 style={{
       marginBottom: "5px"
     }}>프로필</h2>
-    <Link to="https://www.github.com/tabthedev">깃허브</Link>
 
     <h2 style={{
       marginBottom: "5px"
