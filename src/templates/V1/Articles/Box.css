@@ -18,6 +18,10 @@
 #v1_Box > h1, #v1_Box > h2, #v1_Box > h3 {
     margin-left: -12px;
     text-align: left;
-    display: block;
+    display: flex;
     width: 100%+24px;
+}
+
+#v1_Box > h3 {
+    font-size: 26px;
 }

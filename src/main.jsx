@@ -27,9 +27,7 @@ function Home() {
   return <>
     {Header}
     <Box>
-      <h3 style={{
-        display: 'flex',
-      }}>
+      <h3>
         프로필
         <div id="main_ProfileLinks">
         {[
