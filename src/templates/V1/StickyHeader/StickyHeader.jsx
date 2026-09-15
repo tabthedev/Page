@@ -5,20 +5,16 @@ import './StickyHeader.css'
 export default function v1_StickyHeader(content) {
     // document.querySelector("#root").style.
 
-    return <header id="v1_StickyHeader" style={{
-        display: "flex",
-        position: "sticky",
-        width: "100% -12px",
-        top: 0,
-    }}>
+    return <header id="v1_StickyHeader">
         <div id='v1_StickyHeader_leftContainer'>
             {content}
         </div>
         <div id='v1_StickyHeader_rightContainer'>
             <Link to="https://github.com/tabthedev/Page">
-                <ThemeColoredImg src="/brandLogos/GitHub/SVG/GitHub_Invertocat_White.svg" style={{
+                {/* <ThemeColoredImg src="/brandLogos/GitHub/SVG/GitHub_Invertocat_White.svg" style={{
                     height: "1.8em"
-                }} />
+                }} /> */}
+                리포지토리
             </Link>
         </div>
     </header>
