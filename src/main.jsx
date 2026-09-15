@@ -59,21 +59,7 @@ function Home() {
             link: "https://www.github.com/tabthedev"
           },
         ].reverse().map((value)=>{
-          return <Link to={value.link} style={{
-            width: '30px',
-            height: '30px',
-            alignItems: 'center',
-            justifyItems: 'center',
-            display: 'flex',
-            background: 'rgba(0,0,0,.2)',
-            borderRadius: '8px'
-          }}><img src={value.src} alt={value.alt} style={{
-            width: '24px',
-            height: '24px',
-            padding: '3px',
-            display: 'block',
-            objectFit: 'contain'
-          }} /></Link>
+          return <Link to={value.link}><img src={value.src} alt={value.alt} /></Link>
         })}
       </div>
       </h3>

@@ -30,3 +30,21 @@ body {
 #main_ProfileLinks > * {
   margin-left: 4px;
 }
+
+#main_ProfileLinks > * {
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  background: rgba(0,0,0,.2);
+  border-radius: 8px;
+}
+
+#main_ProfileLinks img {
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+  display: block;
+  object-fit: contain;
+}
