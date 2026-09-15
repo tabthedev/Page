@@ -27,10 +27,6 @@ body {
   flex-direction: row-reverse;
 }
 
-#main_ProfileLinks > * {
-  margin-left: 4px;
-}
-
 #main_ProfileLinks > a {
   width: 30px;
   height: 30px;
@@ -40,11 +36,13 @@ body {
   background: rgba(0,0,0,.2);
   border-radius: 8px;
   transition-duration: .2s;
+  margin: 3px 0 0 3px;
 }
 
 #main_ProfileLinks > a:hover {
   width: 36px;
   height: 36px;
+  margin: 0 -3px -3px 0;
 }
 
 #main_ProfileLinks > a > img {
