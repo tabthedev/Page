@@ -7,8 +7,8 @@
     padding: 24px 24px 24px 36px;
     border-radius: 14px;
     background-color: rgba(0,0,0,.2);
-    height: 156px;
-
+    /* height: 156px; */
+    height: fit-content;
 }
 
 #v1_Box > * {

@@ -29,7 +29,6 @@ function Home() {
     <Box>
       <h3>
         프로필
-        
         <div id="main_ProfileLinks">
         {[
           {
@@ -63,7 +62,7 @@ function Home() {
       </div>
       </h3>
 
-      
+      김태희
     </Box>
     
 
