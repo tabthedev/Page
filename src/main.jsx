@@ -44,12 +44,12 @@ function Home() {
           {
             src: "/brandLogos/Discord/Discord-Symbol-White.svg",
             alt: "Discord",
-            link: "https://www.github.com/tabthedev"
+            link: "https://discordapp.com/users/694803206248726538"
           },
           {
             src: "/brandLogos/Roblox_Icon.png",
             alt: "Roblox",
-            link: "https://www.github.com/tabthedev"
+            link: "https://www.roblox.com/users/261189852/profile"
           },
           {
             src: "/brandLogos/GitHub/SVG/GitHub_Invertocat_White.svg",
