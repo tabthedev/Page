@@ -27,32 +27,58 @@ function Home() {
   return <>
     {Header}
     <Box>
-      <h3>프로필</h3>
-
-      <div id="main_ProfileLinks">
-        {([
+      <h3 style={{
+        display: 'flex',
+      }}>
+        프로필
+        <div id="main_ProfileLinks">
+        {[
           {
-            src: "/brandLogos/GitHub_Logos/SVG/GitHub_Invertocat_Black.svg",
+            src: "/brandLogos/YouTube/Digital/yt_icon_white_digital.png",
+            alt: "Youtube",
+            link: "https://www.youtube.com/@tabk123"
+          },
+          {
+            src: "/brandLogos/X/logo-white.png",
+            alt: "X",
+            link: "https://www.x.com/tabthedev"
+          },
+          {
+            src: "/brandLogos/Discord/Discord-Symbol-White.svg",
+            alt: "Discord",
+            link: "https://www.github.com/tabthedev"
+          },
+          {
+            src: "/brandLogos/Roblox_Icon.png",
+            alt: "Roblox",
+            link: "https://www.github.com/tabthedev"
+          },
+          {
+            src: "/brandLogos/GitHub/SVG/GitHub_Invertocat_White.svg",
             alt: "Github",
             link: "https://www.github.com/tabthedev"
           },
-        ]).map((value)=>{
+        ].reverse().map((value)=>{
           return <Link to={value.link} style={{
-            width: '48px',
-            height: '48px',
+            width: '30px',
+            height: '30px',
             alignItems: 'center',
             justifyItems: 'center',
             display: 'flex',
-            background: 'rgba(255,255,255, .9)',
-            borderRadius: '6px'
+            background: 'rgba(0,0,0,.2)',
+            borderRadius: '8px'
           }}><img src={value.src} alt={value.alt} style={{
-            width: '36px',
-            height: '36px',
-            padding: '6px',
-            display: 'block'
+            width: '24px',
+            height: '24px',
+            padding: '3px',
+            display: 'block',
+            objectFit: 'contain'
           }} /></Link>
         })}
       </div>
+      </h3>
+
+      
     </Box>
     
 
