@@ -15,7 +15,7 @@ export default function v1_StickyHeader(content) {
             {content}
         </div>
         <div id='v1_StickyHeader_rightContainer'>
-            <Link to="https://github.com/tabthedev">
+            <Link to="https://github.com/tabthedev/Page">
                 <ThemeColoredImg src="/brandLogos/GitHub_Logos/SVG/GitHub_Invertocat_White.svg" style={{
                     height: "1.8em"
                 }} />
