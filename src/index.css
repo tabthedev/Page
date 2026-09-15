@@ -18,3 +18,13 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+
+#main_ProfileLinks {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#main_ProfileLinks > * {
+  margin-left: 4px;
+}

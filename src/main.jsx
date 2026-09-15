@@ -28,8 +28,31 @@ function Home() {
     {Header}
     <Box>
       <h3>프로필</h3>
-      
-      <Link to="https://www.github.com/tabthedev">깃허브</Link>
+
+      <div id="main_ProfileLinks">
+        {([
+          {
+            src: "/brandLogos/GitHub_Logos/SVG/GitHub_Invertocat_Black.svg",
+            alt: "Github",
+            link: "https://www.github.com/tabthedev"
+          },
+        ]).map((value)=>{
+          return <Link to={value.link} style={{
+            width: '48px',
+            height: '48px',
+            alignItems: 'center',
+            justifyItems: 'center',
+            display: 'flex',
+            background: 'rgba(255,255,255, .9)',
+            borderRadius: '6px'
+          }}><img src={value.src} alt={value.alt} style={{
+            width: '36px',
+            height: '36px',
+            padding: '6px',
+            display: 'block'
+          }} /></Link>
+        })}
+      </div>
     </Box>
     
 
