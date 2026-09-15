@@ -31,7 +31,7 @@ body {
   margin-left: 4px;
 }
 
-#main_ProfileLinks > * {
+#main_ProfileLinks > a {
   width: 30px;
   height: 30px;
   align-items: center;
@@ -39,12 +39,18 @@ body {
   display: flex;
   background: rgba(0,0,0,.2);
   border-radius: 8px;
+  transition-duration: .2s;
 }
 
-#main_ProfileLinks img {
-  width: 24px;
-  height: 24px;
-  padding: 3px;
+#main_ProfileLinks > a:hover {
+  width: 36px;
+  height: 36px;
+}
+
+#main_ProfileLinks > a > img {
+  width: 80%;
+  height: 80%;
+  padding: 10%;
   display: block;
   object-fit: contain;
 }
