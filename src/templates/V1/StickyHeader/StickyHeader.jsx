@@ -16,6 +16,9 @@ export default function v1_StickyHeader(content) {
                 }} /> */}
                 리포지토리
             </Link>
+            <Link to="/">
+            홈
+            </Link>
         </div>
     </header>
 }
