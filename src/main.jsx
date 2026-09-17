@@ -61,8 +61,10 @@ function Home() {
         })}
       </div>
       </h3>
-
-      김태희
+      
+      Common developer mainly works on Roblox. <br/>
+      - Birthday : Feb. 06. 2010 <br/>
+      - Nationality : South Korea <br/>
     </Box>
     
 
