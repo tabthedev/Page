@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Routes, Route, Link, HashRouter } from "react-router-dom";
 
-import StickyHeader from "./templates/designV0/StickyHeader.jsx";
+import StickyHeader from "./templates/V1/StickyHeader/StickyHeader.jsx";
 
 import './templates/V1/v1.css'
 import { Bday2025 } from "./pages/birthday/2025/Bday2025.jsx";
@@ -18,19 +18,56 @@ import Portfolios from "./pages/portfolios/Portfolios.jsx";
 import BirthdayPage_Hina2026 from "./pages/birthday/2026/hina/hinaBDay2026.jsx";
 
 import './index.css'
+import v1_StickyHeaderHeading from './templates/V1/StickyHeader/StickyHeaderHeading.jsx';
+import Box from './templates/V1/Articles/Box.jsx';
 
 function Home() {
-  const Header = StickyHeader(<h1>
-    넣을게 없다
-  </h1>)
+  const Header = StickyHeader(v1_StickyHeaderHeading("넣을게 없다"))
 
   return <>
     {Header}
-    <br />
-    <h2 style={{
-      marginBottom: "5px"
-    }}>프로필</h2>
-    <Link to="https://www.github.com/tabthedev">깃허브</Link>
+    <Box>
+      <h3>
+        프로필
+        <div id="main_ProfileLinks">
+        {[
+          {
+            src: "/brandLogos/YouTube/Digital/yt_icon_white_digital.png",
+            alt: "Youtube",
+            link: "https://www.youtube.com/@tabk123"
+          },
+          {
+            src: "/brandLogos/X/logo-white.png",
+            alt: "X",
+            link: "https://www.x.com/tabthedev"
+          },
+          {
+            src: "/brandLogos/Discord/Discord-Symbol-White.svg",
+            alt: "Discord",
+            link: "https://discordapp.com/users/694803206248726538"
+          },
+          {
+            src: "/brandLogos/Roblox_Icon.png",
+            alt: "Roblox",
+            link: "https://www.roblox.com/users/261189852/profile"
+          },
+          {
+            src: "/brandLogos/GitHub/SVG/GitHub_Invertocat_White.svg",
+            alt: "Github",
+            link: "https://www.github.com/tabthedev"
+          },
+        ].reverse().map((value)=>{
+          return <Link to={value.link}><img src={value.src} alt={value.alt} /></Link>
+        })}
+      </div>
+      </h3>
+      
+      <h4>김태희 | TAEHUI KIM</h4>
+
+      <b>Common developer mainly works on Roblox.</b> <br/>
+      - Birthday : Feb. 06. 2010 <br/>
+      - Nationality : South Korea <br/>
+    </Box>
 
     <h2 style={{
       marginBottom: "5px"
