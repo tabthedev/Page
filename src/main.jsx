@@ -62,15 +62,12 @@ function Home() {
       </div>
       </h3>
       
-      Common developer mainly works on Roblox. <br/>
+      <h4>김태희 | TAEHUI KIM</h4>
+
+      <b>Common developer mainly works on Roblox.</b> <br/>
       - Birthday : Feb. 06. 2010 <br/>
       - Nationality : South Korea <br/>
     </Box>
-    
-
-    <h2 style={{
-      marginBottom: "5px"
-    }}>프로필</h2>
 
     <h2 style={{
       marginBottom: "5px"
