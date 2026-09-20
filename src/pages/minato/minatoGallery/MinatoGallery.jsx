@@ -1,5 +1,7 @@
 import ImageViewer from "../../../templates/designV0/ImageViewer.jsx";
-import StickyHeader from "../../../templates/designV0/StickyHeader.jsx";
+import v1_StickyHeader from "../../../templates/V1/StickyHeader/StickyHeader.jsx";
+import v1_StickyHeaderHeading from "../../../templates/V1/StickyHeader/StickyHeaderHeading.jsx";
+// import StickyHeader from "../../../templates/designV0/StickyHeader.jsx";
 
 import { data } from './data.json';
 import './style.css';
@@ -8,13 +10,15 @@ function MinatoGallery() {
     const [ImageViewerElement, OpenImage] = ImageViewer();
 
 
-  const Header = StickyHeader(<h1 style={ {
-    textAlign: 'center',
-    display: 'block',
-    width: '100%',
-  } }>
-    미나토 갤러리
-  </h1>)
+  // const Header = StickyHeader(<h1 style={ {
+  //   textAlign: 'center',
+  //   display: 'block',
+  //   width: '100%',
+  // } }>
+  //   미나토 갤러리
+  // </h1>)
+
+  const Header = v1_StickyHeader(v1_StickyHeaderHeading("미나토 갤러리"));
 
   const Images = data.map((object)=>{
     const imagePath = `minatoGallery/images/${object.path}`
