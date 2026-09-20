@@ -92,7 +92,12 @@ function Birthday2026() {
   //   </div>
   // </h2>)
 
-  const Header = v1_StickyHeader(v1_StickyHeaderHeading("태희 생일 축하해준 사람들"))
+  const Header = v1_StickyHeader(<>
+    {v1_StickyHeaderHeading("태희 생일 축하해준 사람들")}
+    {/* <div className='birthdate' style={{textAlign: "left"}}>
+      {' (2026. 02. 06)'}
+    </div> */}
+  </>)
 
   return (
     <div className='bday2026'>
