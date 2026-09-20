@@ -72,9 +72,9 @@ function Home() {
     <h2 style={{
       marginBottom: "5px"
     }}>관상용</h2>
-    <Link to="birthday-2025-legacy">2025 생일 (레거시)</Link>
+    <Link to="/birthday/2025-legacy">2025 생일 (레거시)</Link>
     <br />
-    <Link to="birthday-2026">2026 생일</Link>
+    <Link to="/birthday/2026">2026 생일</Link>
     <br />
     <br />
     <Link to="minato-my-beloved">미나토 갤러리</Link>
