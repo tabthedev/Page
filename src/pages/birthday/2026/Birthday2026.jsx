@@ -1,8 +1,9 @@
 import ImageViewer from '../../../templates/designV0/ImageViewer.jsx'
-import StickyHeader from '../../../templates/designV0/StickyHeader.jsx';
-
+// import StickyHeader from '../../../templates/designV0/StickyHeader.jsx';
 import { data } from './data.json';
 import './App.css'
+import v1_StickyHeader from '../../../templates/V1/StickyHeader/StickyHeader.jsx';
+import v1_StickyHeaderHeading from '../../../templates/V1/StickyHeader/StickyHeaderHeading.jsx';
 
 function FormatHour(hour){
   let prefix = ''
@@ -80,16 +81,23 @@ function Birthday2026() {
   }
   )
 
-  const Header = StickyHeader(<h2 style={ {
-    textAlign: 'center',
-    display: 'block',
-    width: '100%',
-  } }>
-    태희 생일 축하해준 사람들 
-    <div className='birthdate'>
+  // const Header = StickyHeader(<h2 style={ {
+  //   textAlign: 'center',
+  //   display: 'block',
+  //   width: '100%',
+  // } }>
+  //   태희 생일 축하해준 사람들 
+  //   <div className='birthdate'>
+  //     {' (2026. 02. 06)'}
+  //   </div>
+  // </h2>)
+
+  const Header = v1_StickyHeader(<>
+    {v1_StickyHeaderHeading("태희 생일 축하해준 사람들")}
+    {/* <div className='birthdate' style={{textAlign: "left"}}>
       {' (2026. 02. 06)'}
-    </div>
-  </h2>)
+    </div> */}
+  </>)
 
   return (
     <div className='bday2026'>

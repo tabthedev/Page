@@ -15,7 +15,8 @@
 #v1_StickyHeader_leftContainer {
     display: flex;
     height: 1.8em;
-    width: 50%;
+    /* width: fit-content; */
+    flex: auto;
     flex-direction: row;
     gap: 12px;
 }
@@ -23,7 +24,7 @@
     display: flex;
     flex-direction: row-reverse;
     height: 1.8em;
-    width: 50%;
+    width: fit-content;
     gap: 12px;
 }
 
