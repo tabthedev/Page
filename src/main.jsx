@@ -77,7 +77,7 @@ function Home() {
     <Link to="/birthday/2026">2026 생일</Link>
     <br />
     <br />
-    <Link to="minato-my-beloved">미나토 갤러리</Link>
+    {/* <Link to="minato-my-beloved">미나토 갤러리</Link> */}
     
     {/* <h2 style={{
       marginBottom: "5px"
